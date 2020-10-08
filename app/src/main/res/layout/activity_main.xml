@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="30dp"
+        android:background="#153449">
+
+        <ImageView
+            android:id="@+id/display_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/elly">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="-100dp">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#153449"
+            android:layout_margin="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/qr_code"
+                    android:layout_centerHorizontal="true"/>
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#153449"
+            android:layout_margin="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/unnamed"
+                    android:layout_centerHorizontal="true"/>
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="0dp"
+        android:layout_marginTop="0dp">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            app:cardElevation="10dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JARILLA, ELLYSA KAYE Q."
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#153449"
+                    android:includeFontPadding="false"
+                    android:fontFamily="serif-monospace"
+                    android:layout_centerInParent="true"
+                    />
+                <TextView
+                    android:id="@+id/name_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EMPLOPYEE'S NAME"
+                    android:textColor="#153449"
+                    android:textStyle="italic|bold"
+                    android:textSize="15sp"
+                    android:includeFontPadding="false"
+                    android:fontFamily="serif-monospace"
+                    android:layout_below="@+id/name"
+                    android:layout_centerHorizontal="true"/>
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="0dp"
+        android:layout_marginTop="0dp">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            app:cardElevation="10dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp">
+
+                <TextView
+                    android:id="@+id/jp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="INTERN"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#153449"
+                    android:includeFontPadding="false"
+                    android:fontFamily="serif-monospace"
+                    android:layout_centerInParent="true"
+                    />
+                <TextView
+                    android:id="@+id/jplabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JOB POSITION"
+                    android:textColor="#153449"
+                    android:textStyle="italic|bold"
+                    android:textSize="15sp"
+                    android:includeFontPadding="false"
+                    android:fontFamily="serif-monospace"
+                    android:layout_below="@+id/jp"
+                    android:layout_centerHorizontal="true"/>
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="0dp"
+        android:layout_marginTop="0dp">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            app:cardElevation="10dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp">
+
+                <TextView
+                    android:id="@+id/dept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RESEARCH and DEVELOPMENT"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#153449"
+                    android:includeFontPadding="false"
+                    android:fontFamily="serif-monospace"
+                    android:layout_centerInParent="true"
+                    />
+                <TextView
+                    android:id="@+id/dept_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEPARTMENT"
+                    android:textColor="#153449"
+                    android:textStyle="italic|bold"
+                    android:textSize="15sp"
+                    android:includeFontPadding="false"
+                    android:fontFamily="serif-monospace"
+                    android:layout_below="@+id/dept"
+                    android:layout_centerHorizontal="true"/>
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="0dp"
+        android:layout_marginTop="0dp">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            app:cardElevation="10dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp">
+
+                <TextView
+                    android:id="@+id/place"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ANTIPOLO,RIZAL"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#153449"
+                    android:includeFontPadding="false"
+                    android:fontFamily="serif-monospace"
+                    android:layout_centerInParent="true"
+                    />
+                <TextView
+                    android:id="@+id/place_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RESOIDENCE"
+                    android:textColor="#153449"
+                    android:textStyle="italic|bold"
+                    android:textSize="15sp"
+                    android:includeFontPadding="false"
+                    android:fontFamily="serif-monospace"
+                    android:layout_below="@+id/place"
+                    android:layout_centerHorizontal="true"/>
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="30dp"
+        android:background="#153449">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo_png_school">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
